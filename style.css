@@ -1,0 +1,86 @@
+/* icons bootstrap  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+table tr:nth-child(even) {
+    background: #f7faff;
+}
+
+
+table td {
+    text-align: center;
+    border: none;
+
+}
+
+table th {
+    font-weight: 500;
+    color: #2d2f31;
+    text-align: center;
+    border: none;
+}
+
+
+/* Left Headings */
+tbody tr > th{
+    text-align: left;
+}
+
+
+/* Top Headings */
+.h-table th{
+    text-align: center;
+}
+
+
+/* Price */
+table th span {
+    color: #9f9292;
+    display: block;
+    font-weight: lighter;
+}
+
+/* Check Icon */
+td > i {
+    font-size: 18px;
+    color: #36d4ba;
+
+}
+
+
+/* Button Choose Plan */
+table .btn {
+    padding: 8px !important;
+    background: #e8eaee !important;
+    color: #2d2f31 !important;
+    border: none;
+    font-size: 15px;
+    font-variant: small-caps;
+    transition: .5s;
+}
+.btn:hover{
+    background: #2d2f31 !important;
+    color: white !important;
+}
+
+
+/* Main Heading "Our Features" */
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #2d2f31;
+}
+
